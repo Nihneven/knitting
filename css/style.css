@@ -1,0 +1,59 @@
+ html,
+ body {
+    background-color: #fef6e4;
+    color: #172c66;
+ }
+ p {
+    color: #172c66;
+ }
+.btn-new-color {
+    background-color: #f582ae;
+ }
+ .btn-new-color:hover {
+    background-color: #ED5D95;
+ }
+ .form-check-input:checked {
+    background-color: #f582ae;
+ }
+footer {
+    background-color: #f3d2c1;
+    color: #172c66;
+}
+
+ /* Carousel styling */
+ #introCarousel,
+ .carousel-inner,
+ .carousel-item,
+ .carousel-item.active {
+   height: 100vh;
+ }
+
+ .carousel-item:nth-child(1) {
+   background-image: url('img.jpg');
+
+ }
+
+ .carousel-item:nth-child(2) {
+   background-image: url('https://nihneven.github.io/knitting/img/img1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+ }
+
+ .carousel-item:nth-child(3) {
+   background-image: url('knitting/img/img1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+ }
+
+ /* Height for devices larger than 576px */
+ @media (min-width: 992px) {
+   #introCarousel {
+     margin-top: -58.59px;
+   }
+ }
+
+ .navbar .nav-link {
+   color: #fff !important;
+ }
