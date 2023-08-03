@@ -29,8 +29,10 @@ footer {
  }
 
  .carousel-item:nth-child(1) {
-   background-image: url('img.jpg');
-
+   background-image: url('https://nihneven.github.io/knitting/img/img.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
  }
 
  .carousel-item:nth-child(2) {
@@ -41,7 +43,7 @@ footer {
  }
 
  .carousel-item:nth-child(3) {
-   background-image: url('knitting/img/img1.jpg');
+   background-image: url('https://nihneven.github.io/knitting/img/img1.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
